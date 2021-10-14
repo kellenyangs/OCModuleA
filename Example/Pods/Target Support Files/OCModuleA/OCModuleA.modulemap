@@ -1,0 +1,6 @@
+framework module OCModuleA {
+  umbrella header "OCModuleA-umbrella.h"
+
+  export *
+  module * { export * }
+}

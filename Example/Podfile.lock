@@ -1,0 +1,16 @@
+PODS:
+  - OCModuleA (0.1.0)
+
+DEPENDENCIES:
+  - OCModuleA (from `../`)
+
+EXTERNAL SOURCES:
+  OCModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCModuleA: 7f6ac8200fca4f24f15845e0ed3597565970141c
+
+PODFILE CHECKSUM: 51a5b96ba2fa1ad7e99a174aea077567f959b4aa
+
+COCOAPODS: 1.11.2

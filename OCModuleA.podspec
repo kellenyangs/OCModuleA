@@ -24,14 +24,17 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/yangshen/OCModuleA'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yangshen' => 'shen.yang@beantechs.com' }
-  s.source           = { :git => 'https://github.com/yangshen/OCModuleA.git', :tag => s.version.to_s }
+  s.author           = { 'yangshen' => 'kysonyangs@gmai.com' }
+  s.source           = { :git => 'https://github.com/kellenyangs/OCModuleA.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+
+  s.platform     = :ios, "9.0"
+#  s.ios.deployment_target = '9.0'
 
   s.source_files = 'OCModuleA/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'OCModuleA' => ['OCModuleA/Assets/*.png']
   # }
@@ -39,4 +42,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency "B_Category"
+  s.dependency "HandyFrame"
 end
