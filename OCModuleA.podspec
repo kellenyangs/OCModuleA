@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCModuleA'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of OCModuleA.'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,6 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/kellenyangs/OCModuleA.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
   s.platform     = :ios, "9.0"
 #  s.ios.deployment_target = '9.0'
 
@@ -43,6 +41,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.dependency "B_Category"
+  s.dependency "OCModuleB_Category"
   s.dependency "HandyFrame"
 end
